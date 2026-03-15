@@ -1,6 +1,6 @@
 FROM node:alpine3.22
 WORKDIR /app
-COPY package.json
+COPY ./package.json .
 RUN npm install
 COPY . .
 ENV PORT=8040
