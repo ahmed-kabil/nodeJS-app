@@ -24,7 +24,7 @@ pipeline{
         }
         stage("cleaning the workspace"){
             steps{
-                cleanWS()
+                cleanWs()
             }
         }
     }
