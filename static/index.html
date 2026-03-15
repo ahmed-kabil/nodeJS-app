@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js & Express App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Using Node.js signature dark background colors */
+            background: radial-gradient(circle at center, #212121 0%, #121212 100%);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 3.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 24px;
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(131, 205, 41, 0.2); /* Node Green border glow */
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            /* Node.js Green Gradient */
+            background: linear-gradient(90deg, #83CD29, #339933);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            color: #83CD29;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 8px 20px;
+            /* Express.js style grey-blue badge */
+            background: rgba(131, 205, 41, 0.1);
+            color: #83CD29;
+            border: 1px solid #83CD29;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }
+
+        .express-text {
+            color: #eeeeee;
+            font-weight: 300;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello from Node.js</h1>
+        <p>Your <span class="highlight">Express</span> backend is live.</p>
+        <span class="express-text">Fast, unopinionated, minimalist web framework</span>
+        <div class="badge">Running on Node v20.x</div>
+    </div>
+</body>
+</html>
