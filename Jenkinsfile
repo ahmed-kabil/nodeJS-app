@@ -1,9 +1,9 @@
 pipeline{
     agent any
     environment{
-        PORT "8040"
-        CONTAINER_NAME "node-app"
-        IMAGE_NAME "ahmedkabil/node-app"
+        PORT = "8040"
+        CONTAINER_NAME = "node-app"
+        IMAGE_NAME = "ahmedkabil/node-app"
     }
 
     stages{
